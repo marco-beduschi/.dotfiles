@@ -10,3 +10,4 @@ My personal dotfiles.
 - Trackpad
 - .zshrc
 - Git
+- Add homebrew
