@@ -2,10 +2,10 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-#    ~/.vim: vim
+    #    ~/.vim: vim
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
 
@@ -13,5 +13,8 @@
     - ~/code
     - ~/work
 
-#- shell:
+- shell:
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
 #  - [git submodule update --init --recursive, Installing submodules]
