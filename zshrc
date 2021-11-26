@@ -95,6 +95,9 @@ source $ZSH/oh-my-zsh.sh
 # init rbenv on every shell
 eval "$(rbenv init -)"
 
+# Bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'" # syntax highlighting for man pages using bat
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -132,3 +135,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
