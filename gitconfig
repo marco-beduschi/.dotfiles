@@ -1,0 +1,9 @@
+[core]
+	excludesfile = /Users/marcobeduschi/.gitignore
+[init]
+	defaultBranch = main
+[user]
+	name = Marco Beduschi
+	email = 8469440+marco-beduschi@users.noreply.github.com
+[pull]
+	rebase = true
