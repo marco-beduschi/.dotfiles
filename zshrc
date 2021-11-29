@@ -104,9 +104,8 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'" # syntax highlighting for man 
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls -lAFh'
+alias bbd='brew bundle dump --force --describe'
 
 # Node.JS
 export PATH="/usr/local/opt/node@12/bin:$PATH"
