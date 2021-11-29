@@ -43,6 +43,8 @@ brew "ruby-build"
 brew "rbenv"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# UNIX shell (command interpreter)
+brew "zsh"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community@3.4"
 # Automated testing of webapps for Google Chrome
