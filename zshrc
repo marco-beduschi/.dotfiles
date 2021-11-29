@@ -106,6 +106,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'" # syntax highlighting for man 
 # Example aliases
 alias ls='ls -lAFh'
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}' # prints $PATH in a readable manner
 
 # Node.JS
 export PATH="/usr/local/opt/node@12/bin:$PATH"
