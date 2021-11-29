@@ -27,6 +27,8 @@ brew "redis"
 brew "zsh"
 # Web browser
 cask "google-chrome"
+# Collaboration platform for API development
+cask "postman"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
