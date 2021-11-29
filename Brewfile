@@ -1,3 +1,4 @@
+# Taps
 tap "homebrew-ffmpeg/ffmpeg"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -5,6 +6,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "mongodb/brew"
 tap "tsuru/tsuru"
+# Brews (Packages)
 brew "coreutils"
 brew "asdf"
 brew "bat"
@@ -37,6 +39,7 @@ brew "tmux"
 brew "watchman"
 brew "homebrew-ffmpeg/ffmpeg/ffmpeg", args: ["with-fdk-aac"]
 brew "mongodb/brew/mongodb-community@3.4"
+# Casks (Apps)
 cask "chromedriver"
 cask "google-chrome"
 cask "visual-studio-code"
