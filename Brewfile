@@ -29,6 +29,8 @@ brew "zsh"
 cask "google-chrome"
 # Collaboration platform for API development
 cask "postman"
+# Team communication and collaboration software
+cask "slack"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
