@@ -56,6 +56,7 @@ git remote set-url origin git@github.com:marco-beduschi/.dotfiles.git
 
 Infelizmente esses softwares/preferências tem que ser configurados a mão:
 
+- Node & NVM/N
 - Dock Preferences
 - Mission Control Preferences
 - Finder Show Path Bar
