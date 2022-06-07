@@ -14,7 +14,7 @@ Auditar softwares instalados:
 ## Restaurando o PC a partir do .dotfiles
 
 1. `xcode-select --install` (Command Line Tools é necessário para o Git e o Homebrew)
-2. `https://github.com/eieioxyz/dotfiles_macos.git`. Vamos começar usando `https` mas trocar pra `ssh` depois da instalação
+2. `https://github.com/marco-beduschi/.dotfiles.git`. Vamos começar usando `https` mas trocar pra `ssh` depois da instalação
 3. `cd ~/.dotfiles`
 4. Audite os softwares que serão instalados pelo arquivo `Brewfile` antes de instalá-los, por precaução
 5. `./install`
