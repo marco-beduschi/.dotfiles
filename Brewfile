@@ -1,22 +1,13 @@
-tap "homebrew-ffmpeg/ffmpeg"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "mongodb/brew"
-tap "tsuru/tsuru"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Core application library for C
 brew "glib"
-# Pack, ship and run any application as a lightweight container
-brew "docker", link: false
-# Isolated development environments using Docker
-brew "docker-compose", link: false
-# User-friendly cURL replacement (command-line HTTP client)
-brew "httpie"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -25,6 +16,8 @@ brew "rbenv"
 brew "redis"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Web browser
 cask "google-chrome"
 # Collaboration platform for API development
