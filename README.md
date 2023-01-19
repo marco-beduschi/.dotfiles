@@ -2,7 +2,7 @@
 
 Meus dotfiles. ([O que são dotfiles?](https://thoughtbot.com/upcase/videos/intro-to-dotfiles#:~:text=Dotfiles%20are%20plain%20text%20configuration,things%20like%20our%20shell%2C%20~%2F.&text=making%20them%20hidden%20files%20on,changes%20you%20make%20over%20time.))
 
-Inspirados nos dotfiles do eieioxyz. [Link aqui](https://github.com/eieioxyz/dotfiles_macos).
+Inspirados nos [dotfiles do eieioxyz](https://github.com/eieioxyz/dotfiles_macos).
 
 ## Antes de Formatar o PC
 
