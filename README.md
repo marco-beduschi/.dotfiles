@@ -14,12 +14,13 @@ Auditar softwares instalados:
 ## Restaurando o PC a partir do .dotfiles
 
 1. `xcode-select --install` (Command Line Tools é necessário para o Git e o Homebrew)
-2. `https://github.com/marco-beduschi/.dotfiles.git`. Vamos começar usando `https` mas trocar pra `ssh` depois da instalação
-3. `cd ~/.dotfiles`
-4. Audite os softwares que serão instalados pelo arquivo `Brewfile` antes de instalá-los, por precaução
-5. `./install`
-6. Reinicie o computador
-7. [Gere uma chave ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), adicione-a ao GitHub, e troque o remote do projeto.
+2. Install ZSH. `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+3. `https://github.com/marco-beduschi/.dotfiles.git`. Vamos começar usando `https` mas trocar pra `ssh` depois da instalação
+4. `cd ~/.dotfiles`
+5. Audite os softwares que serão instalados pelo arquivo `Brewfile` antes de instalá-los, por precaução
+6. `./install`
+7. Reinicie o computador
+8. [Gere uma chave ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), adicione-a ao GitHub, e troque o remote do projeto.
 
 ```zsh
 # Gera a chave SSH no caminho padrão (~/.ssh/config)
@@ -47,7 +48,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 # Verifica a conexão usando SSH, e verifica o fingerprint e password.
 # https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
 ssh -T git@github.com
-
 # Troca o remote de HTTPS para SSH
 git remote set-url origin git@github.com:marco-beduschi/.dotfiles.git
 ```
